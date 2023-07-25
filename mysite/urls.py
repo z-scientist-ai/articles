@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 # from django.conf.urls import url
 from django.urls import path, include
+# from django.conf.urls import include
+# from django.urls import re_path
+# from django.urls.re_path import
 from django.contrib.sitemaps.views import sitemap
 from blog.sitemaps import PostSitemap
 from rest_framework.schemas import get_schema_view
